@@ -1,0 +1,17 @@
+/*
+    Font shorthand 
+        font: font-style font-variant font-weight font-size/line-height font-family;
+
+    font-weight references:
+        Thin                - 100
+        ExtraLight          - 200
+        Light               - 300
+        Regular             - 400
+        Medium              - 500
+        SemiBold            - 600
+        Bold                - 700
+        ExtraBold           - 800
+        Black               - 900
+*/
+
+$default: 400 1rem/1 $font-family;
