@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -36,7 +37,34 @@
 </head>
 
 <body>
-    <script src="./assets/scripts/main.js"></script>
+    <!-- <main>
+        <div class="container">
+            <form class="info-form">
+                <input type="url" placeholder="Link do vídeo a legendar">
+                <textarea name="lyrics" id="lyrics-input" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+    </main> -->
+    <main>
+        <kbd>space</kbd>
+        <div class="video">
+            <div id="player"></div>
+            <div class="video__caption"></div>
+        </div>
+        <div class="caption">
+            <div class="lyrics"></div>
+            <ul class="timestamp"></ul>
+        </div>
+        <div class="info">
+            <div class="lyrics">
+                <textarea name="lyrics" id="lyrics-input" cols="30" rows="10"></textarea>
+            </div>
+            <div class="preview">
+                <pre class="preview-json"></pre>
+            </div>
+    </main>
+
+    <script src="./assets/scripts/_main.js"></script>
 </body>
 
 </html>
